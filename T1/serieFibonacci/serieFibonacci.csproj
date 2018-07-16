@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F28A9F0B-7D75-48FC-BC73-1A5B652681C6}</ProjectGuid>
+    <ProjectGuid>{27FCC078-45E4-4499-8B8E-E611E6218FC6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Fibonacci</RootNamespace>
-    <AssemblyName>Fibonacci</AssemblyName>
+    <RootNamespace>serieFibonacci</RootNamespace>
+    <AssemblyName>serieFibonacci</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

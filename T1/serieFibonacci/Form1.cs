@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Voto
+namespace serieFibonacci
 {
     public partial class Form1 : Form
     {
@@ -19,16 +19,17 @@ namespace Voto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idade = 16;
-
-            if (idade < 16)
+            string serieFibonacci = "";
+            int anterior = 0;
+            int atual = 1;
+            while (atual <= 100)
             {
-                MessageBox.Show("Você não tem idade para votar.");
+                serieFibonacci += atual + " ";
+                int proximo = anterior + atual;
+                anterior = atual;
+                atual = proximo;
             }
-            else
-            {
-                MessageBox.Show("Você já pode votar.");
-            }
+            MessageBox.Show("A série de Fibonacci até 100: " + serieFibonacci);
         }
     }
 }

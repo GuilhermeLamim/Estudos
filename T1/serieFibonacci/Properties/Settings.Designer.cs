@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace conta1a100.Properties
+namespace serieFibonacci.Properties
 {
 
 
