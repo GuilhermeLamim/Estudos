@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BB9BB6DE-9965-4834-8B9F-3E60DD901899}</ProjectGuid>
+    <ProjectGuid>{5A1F2E9E-0063-4D31-9CB2-F7489AAEB178}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>numerosFatoriais</RootNamespace>
-    <AssemblyName>numerosFatoriais</AssemblyName>
+    <RootNamespace>nFatoriais</RootNamespace>
+    <AssemblyName>nFatoriais</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

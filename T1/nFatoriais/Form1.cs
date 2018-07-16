@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace numerosFatoriais
+namespace nFatoriais
 {
     public partial class Form1 : Form
     {
@@ -20,11 +20,14 @@ namespace numerosFatoriais
         private void button1_Click(object sender, EventArgs e)
         {
             int fatorial = 1;
-            for (int n = 1; n < 10; n++)
+
+            for (int i = 1; i <= 10; i++)
             {
-                fatorial = fatorial * n;
-                MessageBox.Show("Fatorial (" + n + ")" + fatorial);
+                fatorial = fatorial * i;
+
+                MessageBox.Show("Fatorial(" + i + ") = " + fatorial);
             }
+            
         }
     }
 }

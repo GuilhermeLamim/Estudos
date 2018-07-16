@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace numerosFatoriais.Properties
+namespace nFatoriais.Properties
 {
 
 
