@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idadeMedia", "idadeMedia\id
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculoImposto", "calculoImposto\calculoImposto.csproj", "{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voto", "Voto\Voto.csproj", "{7718E08F-6FCB-4E17-A317-9ABCA89447FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7718E08F-6FCB-4E17-A317-9ABCA89447FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7718E08F-6FCB-4E17-A317-9ABCA89447FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7718E08F-6FCB-4E17-A317-9ABCA89447FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7718E08F-6FCB-4E17-A317-9ABCA89447FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
