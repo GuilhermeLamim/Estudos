@@ -19,9 +19,9 @@ namespace soma1a1000
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int soma = 1;
+            int soma = 0;
 
-            for (int i =1; i <= 1000; i++)
+            for (int i =1; i <= 3; i++)
             {
                 soma += i;
             }
