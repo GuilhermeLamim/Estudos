@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numerosFatoriais", "numeros
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroProgramaC", "PrimeiroProgramaC\PrimeiroProgramaC.csproj", "{721A4EA2-B11C-42FA-BA93-389698E8170F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoisButton", "DoisButton\DoisButton.csproj", "{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{721A4EA2-B11C-42FA-BA93-389698E8170F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{721A4EA2-B11C-42FA-BA93-389698E8170F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{721A4EA2-B11C-42FA-BA93-389698E8170F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
