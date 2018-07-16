@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "idadeMedia", "idadeMedia\idadeMedia.csproj", "{91F47E03-DFC3-45A2-ABFF-1FB330F9FC02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculoImposto", "calculoImposto\calculoImposto.csproj", "{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{91F47E03-DFC3-45A2-ABFF-1FB330F9FC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F47E03-DFC3-45A2-ABFF-1FB330F9FC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F47E03-DFC3-45A2-ABFF-1FB330F9FC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9C4202-8FC4-4EE1-AC35-C48D94557BF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
