@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3A66E45B-A90C-41EB-A0AA-F043C2B18681}</ProjectGuid>
+    <ProjectGuid>{2607894B-2CAB-4808-8BF7-EB006AA469F2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>calculoImposto</RootNamespace>
-    <AssemblyName>calculoImposto</AssemblyName>
+    <RootNamespace>CaixaEletronico</RootNamespace>
+    <AssemblyName>CaixaEletronico</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

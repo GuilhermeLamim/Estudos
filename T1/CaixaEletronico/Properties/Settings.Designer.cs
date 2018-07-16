@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace calculoImposto.Properties
+namespace CaixaEletronico.Properties
 {
 
 

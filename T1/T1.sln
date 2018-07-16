@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroProgramaC", "Primei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoisButton", "DoisButton\DoisButton.csproj", "{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEletronico\CaixaEletronico.csproj", "{2607894B-2CAB-4808-8BF7-EB006AA469F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F69D1D0-A5EF-40AF-800B-0A777E623BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2607894B-2CAB-4808-8BF7-EB006AA469F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2607894B-2CAB-4808-8BF7-EB006AA469F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2607894B-2CAB-4808-8BF7-EB006AA469F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2607894B-2CAB-4808-8BF7-EB006AA469F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
