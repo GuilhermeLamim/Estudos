@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99F0355B-AF9C-4C6E-A72A-D7BF4866D18D}</ProjectGuid>
+    <ProjectGuid>{2052B15C-5CEC-48DD-A154-96B376283814}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Encapsulamento</RootNamespace>
-    <AssemblyName>Encapsulamento</AssemblyName>
+    <RootNamespace>Construtores</RootNamespace>
+    <AssemblyName>Construtores</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,7 +55,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="totalizadorDeConta.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
