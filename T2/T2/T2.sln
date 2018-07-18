@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronicoDeposito", "CaixaEletronicoDeposito\CaixaEletronicoDeposito.csproj", "{AC0006E3-0CD8-47BD-A9A9-6AC372A0225E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronicaSaca", "CaixaEletronicaSaca\CaixaEletronicaSaca.csproj", "{DF0B46F6-B605-42D7-94E0-BF524C73870E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AC0006E3-0CD8-47BD-A9A9-6AC372A0225E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0006E3-0CD8-47BD-A9A9-6AC372A0225E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0006E3-0CD8-47BD-A9A9-6AC372A0225E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF0B46F6-B605-42D7-94E0-BF524C73870E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0B46F6-B605-42D7-94E0-BF524C73870E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0B46F6-B605-42D7-94E0-BF524C73870E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0B46F6-B605-42D7-94E0-BF524C73870E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
