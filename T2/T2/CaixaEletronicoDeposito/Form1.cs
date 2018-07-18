@@ -32,7 +32,7 @@ namespace CaixaEletronicoDeposito
             this.MostraConta();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             string textoDoValorDoDeposito = textoValor.Text;
             double valorDeposito = Convert.ToDouble(textoDoValorDoDeposito);
@@ -47,5 +47,7 @@ namespace CaixaEletronicoDeposito
             textoSaldo.Text = Convert.ToString(this.conta.Saldo);
             textoTitular.Text = this.conta.Titular.Nome;
         }
+
+        
     }
 }
