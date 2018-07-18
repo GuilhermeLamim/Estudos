@@ -51,6 +51,7 @@
             // 
             this.textoSaldo.Location = new System.Drawing.Point(416, 157);
             this.textoSaldo.Name = "textoSaldo";
+            this.textoSaldo.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.textoSaldo.Size = new System.Drawing.Size(100, 20);
             this.textoSaldo.TabIndex = 3;
             // 
