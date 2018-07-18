@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Encapsulamento
+namespace CaixaEletronico
 {
     class Cliente
     {
-        
+        public string Titular;
+        public string nome;
     }
 }

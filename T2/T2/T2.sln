@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulamento", "Encapsula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Construtores", "Construtores\Construtores.csproj", "{2052B15C-5CEC-48DD-A154-96B376283814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEletronico\CaixaEletronico.csproj", "{8B8425FB-FDE7-4138-803D-F9C1B777D51A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronico", "CaixaEletronico\CaixaEletronico.csproj", "{0C19A6FF-DC92-45F6-BFC3-85D4CD7E14B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2052B15C-5CEC-48DD-A154-96B376283814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2052B15C-5CEC-48DD-A154-96B376283814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2052B15C-5CEC-48DD-A154-96B376283814}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B8425FB-FDE7-4138-803D-F9C1B777D51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B8425FB-FDE7-4138-803D-F9C1B777D51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B8425FB-FDE7-4138-803D-F9C1B777D51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B8425FB-FDE7-4138-803D-F9C1B777D51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C19A6FF-DC92-45F6-BFC3-85D4CD7E14B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C19A6FF-DC92-45F6-BFC3-85D4CD7E14B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C19A6FF-DC92-45F6-BFC3-85D4CD7E14B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C19A6FF-DC92-45F6-BFC3-85D4CD7E14B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

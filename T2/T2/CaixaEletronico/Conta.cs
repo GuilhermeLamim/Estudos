@@ -8,10 +8,14 @@ namespace CaixaEletronico
 {
     class Conta
     {
-        public string titular;
-        public double saldo;
-        public int numero;
+        public double Saldo { get; set; }
+        public int Numero { get; set; }
+        public Cliente Titular;
 
-        
+
+        public void Deposito(double valor)
+        {
+            this.Saldo += valor;
+        }
     }
 }

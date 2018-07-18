@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variável de designer necessária.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Limpar os recursos que estão sendo usados.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,30 +20,47 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código gerado pelo Windows Form Designer
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent()
         {
             this.textoTitular = new System.Windows.Forms.TextBox();
+            this.textoNumero = new System.Windows.Forms.TextBox();
+            this.textoSaldo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(398, 181);
+            this.textoTitular.Location = new System.Drawing.Point(416, 52);
             this.textoTitular.Name = "textoTitular";
             this.textoTitular.Size = new System.Drawing.Size(100, 20);
             this.textoTitular.TabIndex = 0;
-            this.textoTitular.TextChanged += new System.EventHandler(this.textoTitular_TextChanged);
+            // 
+            // textoNumero
+            // 
+            this.textoNumero.Location = new System.Drawing.Point(416, 246);
+            this.textoNumero.Name = "textoNumero";
+            this.textoNumero.Size = new System.Drawing.Size(100, 20);
+            this.textoNumero.TabIndex = 2;
+            // 
+            // textoSaldo
+            // 
+            this.textoSaldo.Location = new System.Drawing.Point(416, 157);
+            this.textoSaldo.Name = "textoSaldo";
+            this.textoSaldo.Size = new System.Drawing.Size(100, 20);
+            this.textoSaldo.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textoSaldo);
+            this.Controls.Add(this.textoNumero);
             this.Controls.Add(this.textoTitular);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +73,8 @@
         #endregion
 
         private System.Windows.Forms.TextBox textoTitular;
+        private System.Windows.Forms.TextBox textoNumero;
+        private System.Windows.Forms.TextBox textoSaldo;
     }
 }
 
