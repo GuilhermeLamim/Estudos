@@ -34,11 +34,7 @@ namespace CaixaEletronicaSaca
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            string textoDoValorDoDeposito = textoValor.Text;
-            double valorDeposito = Convert.ToDouble(textoDoValorDoDeposito);
-            this.conta.Deposito(valorDeposito);
-
-            this.MostraConta();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -57,6 +53,14 @@ namespace CaixaEletronicaSaca
             textoTitular.Text = this.conta.Titular.Nome;
         }
 
-        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string textoDoValorDoDeposito = textoValor.Text;
+            double valorDeposito = Convert.ToDouble(textoDoValorDoDeposito);
+            this.conta.Deposito(valorDeposito);
+
+            this.MostraConta();
+        }
+
     }
 }
