@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronica", "CaixaEle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.csproj", "{B8DC27A5-DED7-4917-8829-1ED355B6ADC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palimorfismo", "Palimorfismo\Palimorfismo.csproj", "{F897F20A-0403-49F8-BA28-60950E27FA46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B8DC27A5-DED7-4917-8829-1ED355B6ADC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8DC27A5-DED7-4917-8829-1ED355B6ADC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8DC27A5-DED7-4917-8829-1ED355B6ADC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F897F20A-0403-49F8-BA28-60950E27FA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897F20A-0403-49F8-BA28-60950E27FA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897F20A-0403-49F8-BA28-60950E27FA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897F20A-0403-49F8-BA28-60950E27FA46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
