@@ -31,12 +31,7 @@ namespace CaixaEletronicaSaca
 
             this.MostraConta();
         }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             string textoDoValorDoSaque = textoValor.Text;
@@ -46,7 +41,7 @@ namespace CaixaEletronicaSaca
             this.MostraConta();
         }
 
-        private void MostraConta()
+           private void MostraConta()
         {
             textoNumero.Text = Convert.ToString(this.conta.Numero);
             textoSaldo.Text = Convert.ToString(this.conta.Saldo);
