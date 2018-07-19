@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ArrayBanco")]
+[assembly: AssemblyTitle("CaixaEletronicoArray")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ArrayBanco")]
+[assembly: AssemblyProduct("CaixaEletronicoArray")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3ab8a7be-3a2e-4401-8bd9-e1a4541e6aab")]
+[assembly: Guid("ba821eb6-8b97-440b-b2bd-bb312c467f3a")]
 
 // Version information for an assembly consists of the following four values:
 //

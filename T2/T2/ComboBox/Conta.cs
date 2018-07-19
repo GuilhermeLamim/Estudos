@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ArrayBanco
+namespace ComboBox
 {
     class Conta
     {
-        public double Saldo { get; set; }
+        public double Saldo;
+        public string Titular;
+        public int numero;
        // public Cliente Titular;
 
-        public void Deposito(double valor)
-        {
-            this.Saldo += valor;
-        }
     }
 }

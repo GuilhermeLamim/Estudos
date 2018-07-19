@@ -8,24 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ArrayBanco
+namespace CaixaEletronicoSaque
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Banco contas = new Banco();
-            Conta conta = new Conta();
-
-            contas.Adiciona(conta);
-
-            contas.mostra();
-            
         }
     }
 }
