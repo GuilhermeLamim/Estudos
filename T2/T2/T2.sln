@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca", "Heranca\Heranca.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palimorfismo", "Palimorfismo\Palimorfismo.csproj", "{F897F20A-0403-49F8-BA28-60950E27FA46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{475A986A-9794-4FF7-BEB7-0D8136FA0956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F897F20A-0403-49F8-BA28-60950E27FA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F897F20A-0403-49F8-BA28-60950E27FA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F897F20A-0403-49F8-BA28-60950E27FA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475A986A-9794-4FF7-BEB7-0D8136FA0956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475A986A-9794-4FF7-BEB7-0D8136FA0956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475A986A-9794-4FF7-BEB7-0D8136FA0956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475A986A-9794-4FF7-BEB7-0D8136FA0956}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
