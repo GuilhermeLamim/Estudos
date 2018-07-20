@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaixaEletronicoArray", "CaixaEletronicoArray\CaixaEletronicoArray.csproj", "{BA821EB6-8B97-440B-B2BD-BB312C467F3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{A8D4FB8C-D95C-43F9-A543-2BDC6E5D6EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BA821EB6-8B97-440B-B2BD-BB312C467F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA821EB6-8B97-440B-B2BD-BB312C467F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA821EB6-8B97-440B-B2BD-BB312C467F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D4FB8C-D95C-43F9-A543-2BDC6E5D6EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D4FB8C-D95C-43F9-A543-2BDC6E5D6EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D4FB8C-D95C-43F9-A543-2BDC6E5D6EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D4FB8C-D95C-43F9-A543-2BDC6E5D6EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

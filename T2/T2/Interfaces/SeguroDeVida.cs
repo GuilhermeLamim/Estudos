@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Palimorfismo
+namespace Interfaces
 {
-    class ContaPoupanca : Conta
+    class SeguroDeVida
     {
-        public override void Atualiza(double taxa)
+        public double CalculaTributos()
         {
-            this.Saldo += this.Saldo * 3 * taxa;
+            return 42.0;
         }
-
     }
 }

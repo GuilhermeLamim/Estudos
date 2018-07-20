@@ -43,5 +43,10 @@ namespace Palimorfismo
 
             MessageBox.Show("Totalizador: " + Total.SaldoTotal);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
