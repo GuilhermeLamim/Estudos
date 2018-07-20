@@ -21,5 +21,12 @@ namespace CaixaEletronicoArray
         {
             this.Saldo -= valor;
         }
+
+        public void Transferencia(double valor, Conta destino)
+        {
+            this.Saca(valor);
+            destino.Deposito(valor);
+        }
+
     }
 }

@@ -16,6 +16,7 @@ namespace CaixaEletronicoArray
         {
             int indiceSelecionado = comboContas.SelectedIndex;
             return this.contas[indiceSelecionado];
+
         }
         Conta[] contas;
         public Form1()
@@ -48,14 +49,15 @@ namespace CaixaEletronicoArray
             foreach (Conta Item in contas)
             {
                 comboContas.Items.Add(Item.Titular);
+                destinoDaTransferencia.Items.Add(Item.Titular);
             }
         }
         private void MostraConta(Conta conta)
         {
-                textoNumero.Text = Convert.ToString(conta.Numero);
-                textoSaldo.Text = Convert.ToString(conta.Saldo);
-                textoTitular.Text = conta.Titular;
-            
+            textoNumero.Text = Convert.ToString(conta.Numero);
+            textoSaldo.Text = Convert.ToString(conta.Saldo);
+            textoTitular.Text = conta.Titular;
+
         }
 
         private void comboContas_SelectedIndexChanged(object sender, EventArgs e)
@@ -87,6 +89,26 @@ namespace CaixaEletronicoArray
 
             this.MostraConta(contaSelecionada);
         }
-        
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Conta contaSelecionada = this.BuscaContaSelecionada();
+            int indiceDaContaDestino = destinoDaTransferencia.SelectedIndex;
+
+            Conta contaDestino = this.contas[indiceDaContaDestino];
+            string transferenciaValor = textoValor.Text;
+            double valorTransferencia = Convert.ToDouble(transferenciaValor);
+
+            contaSelecionada.Transferencia(valorTransferencia, contaDestino);
+
+            textoTitular.Text = contaSelecionada.Titular;
+            textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
+            textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
+        }
+
+        private void destinoDaTransferencia_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
     }
 }
