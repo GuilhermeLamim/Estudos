@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-   abstract class Conta
+   public abstract class Conta
     {
         public double Saldo;
 

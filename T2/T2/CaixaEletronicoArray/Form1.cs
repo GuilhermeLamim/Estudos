@@ -73,6 +73,11 @@ namespace CaixaEletronicoArray
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
 
+        /*public void Adiciona(Conta conta)
+        {
+            this.contas[this.quantidadeDeContas] = conta;
+        }*/
+
         private void button2_Click(object sender, EventArgs e)
         {
             string textoValorSaque = textoValor.Text;

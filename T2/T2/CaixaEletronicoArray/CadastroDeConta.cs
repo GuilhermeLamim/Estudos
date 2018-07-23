@@ -12,6 +12,7 @@ namespace CaixaEletronicoArray
 {
     public partial class CadastroDeConta : Form
     {
+
         private Form1 aplicacaoPrincipal;
         public CadastroDeConta(Form1 aplicacaoPrincipal)
         {
