@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Interfaces
+namespace Exception
 {
     public partial class Form1 : Form
     {
@@ -17,24 +17,25 @@ namespace Interfaces
             InitializeComponent();
         }
 
-      
-
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            ContaPoupanca cp = new ContaPoupanca();
-            ContaInvestimentos ci = new ContaInvestimentos();
-            cp.Deposita(10.0);
-            ci.Deposita(100.0);
-            TotalizadorDeTributos t = new TotalizadorDeTributos();
-            t.Acumula(cp);
-            t.Acumula(ci);
-
-            MessageBox.Show("Saldo " + t.Total);
+           
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
+
+
+            private void MostraConta(Conta conta)
+            {
+                textoNumero.Text = Convert.ToString(conta.Numero);
+                textoSaldo.Text = Convert.ToString(conta.Saldo);
+                textoTitular.Text = conta.Titular;
+
+            }
         }
     }
 }

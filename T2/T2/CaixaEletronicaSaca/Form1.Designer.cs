@@ -43,7 +43,6 @@
             this.textoTitular.Name = "textoTitular";
             this.textoTitular.Size = new System.Drawing.Size(100, 20);
             this.textoTitular.TabIndex = 0;
-            this.textoTitular.Text = "Titular";
             // 
             // textoSaldo
             // 
@@ -53,7 +52,6 @@
             this.textoSaldo.Name = "textoSaldo";
             this.textoSaldo.Size = new System.Drawing.Size(100, 20);
             this.textoSaldo.TabIndex = 1;
-            this.textoSaldo.Text = "Saldo";
             // 
             // textoNumero
             // 
@@ -61,7 +59,6 @@
             this.textoNumero.Name = "textoNumero";
             this.textoNumero.Size = new System.Drawing.Size(100, 20);
             this.textoNumero.TabIndex = 2;
-            this.textoNumero.Text = "Número";
             // 
             // textoValor
             // 
@@ -69,7 +66,6 @@
             this.textoValor.Name = "textoValor";
             this.textoValor.Size = new System.Drawing.Size(100, 20);
             this.textoValor.TabIndex = 3;
-            this.textoValor.Text = "Valor:";
             // 
             // button1
             // 

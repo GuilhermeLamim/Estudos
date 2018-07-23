@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CaixaEletronicoArray
+namespace Exception
 {
-    class Cliente : Conta
+    class Cliente
     {
-      public string Nome;
+        public string Nome;
     }
 }

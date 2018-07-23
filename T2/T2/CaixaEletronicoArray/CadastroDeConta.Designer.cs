@@ -1,6 +1,6 @@
-﻿namespace Interfaces
+﻿namespace CaixaEletronicoArray
 {
-    partial class Form1
+    partial class CadastroDeConta
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.titularConta = new System.Windows.Forms.TextBox();
+            this.numeroConta = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // titularConta
+            // 
+            this.titularConta.Location = new System.Drawing.Point(406, 80);
+            this.titularConta.Name = "titularConta";
+            this.titularConta.Size = new System.Drawing.Size(100, 20);
+            this.titularConta.TabIndex = 0;
+            // 
+            // numeroConta
+            // 
+            this.numeroConta.Location = new System.Drawing.Point(406, 167);
+            this.numeroConta.Name = "numeroConta";
+            this.numeroConta.Size = new System.Drawing.Size(100, 20);
+            this.numeroConta.TabIndex = 1;
+            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(376, 193);
+            this.button1.Location = new System.Drawing.Point(445, 313);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // CadastroDeConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Controls.Add(this.numeroConta);
+            this.Controls.Add(this.titularConta);
+            this.Name = "CadastroDeConta";
+            this.Text = "CadastroDeConta";
+            this.Load += new System.EventHandler(this.CadastroDeConta_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
+        private System.Windows.Forms.TextBox titularConta;
+        private System.Windows.Forms.TextBox numeroConta;
         private System.Windows.Forms.Button button1;
     }
 }
-

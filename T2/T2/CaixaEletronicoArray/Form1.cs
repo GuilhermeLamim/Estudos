@@ -27,21 +27,24 @@ namespace CaixaEletronicoArray
         private void Form1_Load(object sender, EventArgs e)
         {
             contas = new Conta[3];
+            Cliente cliente = new Cliente();
+
+            
 
             Conta contaDoVictor = new Conta();
-            contaDoVictor.Titular = "Victor";
+            contaDoVictor.Titular.Nome = "Victor";
             contaDoVictor.Numero = 1;
             contaDoVictor.Saldo = 300.0;
             contas[0] = contaDoVictor;
 
             Conta contaDoGuilherme = new Conta();
-            contaDoGuilherme.Titular = "Guilherme";
+            contaDoGuilherme.Titular.Nome = "Guilherme";
             contaDoGuilherme.Numero = 2;
             contaDoGuilherme.Saldo = 600.0;
             contas[1] = contaDoGuilherme;
 
             Conta contaDoMauricio = new Conta();
-            contaDoMauricio.Titular = "Mauricio";
+            contaDoMauricio.Titular.Nome = "Mauricio";
             contaDoMauricio.Numero = 3;
             contaDoMauricio.Saldo = 900.0;
             contas[2] = contaDoMauricio;
@@ -56,7 +59,7 @@ namespace CaixaEletronicoArray
         {
             textoNumero.Text = Convert.ToString(conta.Numero);
             textoSaldo.Text = Convert.ToString(conta.Saldo);
-            textoTitular.Text = conta.Titular;
+            textoTitular.Text = conta.Titular.Nome;
 
         }
 
@@ -65,7 +68,7 @@ namespace CaixaEletronicoArray
             Conta contaSelecionada = this.BuscaContaSelecionada();
             this.MostraConta(contaSelecionada);
 
-            textoTitular.Text = contaSelecionada.Titular;
+            textoTitular.Text = contaSelecionada.Titular.Nome;
             textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
@@ -101,7 +104,7 @@ namespace CaixaEletronicoArray
 
             contaSelecionada.Transferencia(valorTransferencia, contaDestino);
 
-            textoTitular.Text = contaSelecionada.Titular;
+            textoTitular.Text = contaSelecionada.Titular.Nome;
             textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace CaixaEletronicoArray
 {
-    class Cliente : Conta
+    class ContaCorrente : Conta
     {
-      public string Nome;
+        public override void Saca(double valor)
+        {
+            this.Saldo -= valor + 0.2;
+        }
+
     }
 }

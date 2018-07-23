@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CaixaEletronicoArray
+namespace Exception
 {
-     class Conta
+    class Conta
     {
-        public int Numero;
-        public double Saldo;
-        public Cliente Titular;
-      
+        public int Numero { get; set; }
+        public double Saldo { get; private set; }
+        public Cliente Titular { get; set }
+
         public void Deposito(double valor)
         {
             this.Saldo += valor;
         }
 
-        public virtual void Saca(double valor)
+        public void Saca(double valor)
         {
             this.Saldo -= valor;
         }
@@ -27,6 +27,5 @@ namespace CaixaEletronicoArray
             this.Saca(valor);
             destino.Deposito(valor);
         }
-
     }
 }
