@@ -24,20 +24,20 @@ namespace CaixaEletronicoArray
         {
             {
 
-                Conta c = null;
+                Conta conta = null;
                 if (tipoDaConta.Text == "Poupanca")
                 {
-                    c = new ContaPoupanca();
+                    conta = new ContaPoupanca();
                 }
                 else
                 {
-                    c = new ContaCorrente();
+                    conta = new ContaCorrente();
                 }
                 
                 
-                c.Numero = Convert.ToInt32(numeroConta.Text);
-                c.Titular = titularConta.Text;
-                this.aplicacaoPrincipal.AdicionaConta(c);
+                conta.Numero = Convert.ToInt32(numeroConta.Text);
+                conta.Titular = titularConta.Text;
+                this.aplicacaoPrincipal.AdicionaConta(conta);
             }
 
             /*{

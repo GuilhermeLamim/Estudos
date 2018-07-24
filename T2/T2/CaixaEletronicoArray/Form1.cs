@@ -28,7 +28,7 @@ namespace CaixaEletronicoArray
         private void Form1_Load(object sender, EventArgs e)
         {
             contas = new Conta[3];
-            Cliente cliente = new Cliente();           
+            Cliente cliente = new Cliente();
 
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = "Victor";
@@ -73,8 +73,29 @@ namespace CaixaEletronicoArray
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
 
-        public void AdicionaConta(Conta conta)
+        
+        public void RemoveConta(Conta conta)
+        {
+            comboContas.Items.Remove(conta);
+            int i;
+            for (i = 0; i < this.quantidadeDeContas; i++)
             {
+                if (this.contas[i] == conta)
+                {
+                    break;
+                }
+            }
+            while (i + 1 <= this.quantidadeDeContas)
+            {
+                this.contas[i] = this.contas[i + 1];
+                i++;
+            }
+        }
+
+
+    
+            public void AdicionaConta(Conta conta)
+        {
             if (this.quantidadeDeContas == this.contas.Length)
             {
                 Conta[] novo = new Conta[this.contas.Length * 2];
@@ -88,7 +109,7 @@ namespace CaixaEletronicoArray
             this.quantidadeDeContas++;
             comboContas.Items.Add(conta);
         }
-        
+
         private void button2_Click(object sender, EventArgs e)
         {
             string textoValorSaque = textoValor.Text;
@@ -134,5 +155,11 @@ namespace CaixaEletronicoArray
             CadastroDeConta cadastro = new CadastroDeConta(this);
             cadastro.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+            
+        }
     }
-}
