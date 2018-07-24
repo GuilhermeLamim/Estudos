@@ -27,10 +27,10 @@ namespace CaixaEletronicoArray
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            contas = new Conta[3];
+            contas = new Conta[4];
             Cliente cliente = new Cliente();
 
-            
+         /*   
 
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = "Victor";
@@ -54,7 +54,7 @@ namespace CaixaEletronicoArray
             {
                 comboContas.Items.Add(Item.Titular);
                 destinoDaTransferencia.Items.Add(Item.Titular);
-            }
+            }*/
         }
         private void MostraConta(Conta conta)
         {
@@ -75,15 +75,12 @@ namespace CaixaEletronicoArray
         }
 
         public void AdicionaConta(Conta conta)
-        {
-            if (quantidadeDeContas < 3)
             {
                 this.contas[this.quantidadeDeContas] = conta;
                 this.quantidadeDeContas++;
-                comboContas.Items.Add(conta);
+                comboContas.Items.Add(conta.Titular);
             }
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             string textoValorSaque = textoValor.Text;

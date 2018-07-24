@@ -36,6 +36,7 @@ namespace CaixaEletronicoArray
                 Titular = titular 
             };
             this.aplicacaoPrincipal.AdicionaConta(conta);
+            this.Close();
         }
 
         private void CadastroDeConta_Load(object sender, EventArgs e)
