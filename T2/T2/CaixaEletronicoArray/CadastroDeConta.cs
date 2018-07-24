@@ -22,14 +22,20 @@ namespace CaixaEletronicoArray
 
         private void button1_Click(object sender, EventArgs e)
         {
+            {
+                ContaCorrente c = new ContaCorrente();
+                c.Numero = Convert.ToInt32(numeroConta.Text);
+                c.Titular = titularConta.Text;
+            }
             string titular = titularConta.Text;
             int numero = Convert.ToInt32(numeroConta.Text);
 
             Conta conta = new ContaCorrente()
             {
                 Numero = numero,
-                Titular = new Cliente { Nome = titular }
+                Titular = titular 
             };
+            this.aplicacaoPrincipal.AdicionaConta(conta);
         }
 
         private void CadastroDeConta_Load(object sender, EventArgs e)

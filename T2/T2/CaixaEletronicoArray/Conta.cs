@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CaixaEletronicoArray
 {
-     class Conta
+     public abstract class Conta
     {
         public int Numero;
         public double Saldo;
-        public Cliente Titular;
+        public string Titular;
       
         public void Deposito(double valor)
         {

@@ -8,6 +8,6 @@ namespace CaixaEletronicoArray
 {
     class Cliente : Conta
     {
-      public string Nome;
+        public string Nome;
     }
 }

@@ -19,6 +19,7 @@ namespace CaixaEletronicoArray
 
         }
         Conta[] contas;
+        private int quantidadeDeContas;
         public Form1()
         {
             InitializeComponent();
@@ -31,20 +32,20 @@ namespace CaixaEletronicoArray
 
             
 
-            Conta contaDoVictor = new Conta();
-            contaDoVictor.Titular.Nome = "Victor";
+            Conta contaDoVictor = new ContaCorrente();
+            contaDoVictor.Titular = "Victor";
             contaDoVictor.Numero = 1;
             contaDoVictor.Saldo = 300.0;
             contas[0] = contaDoVictor;
 
-            Conta contaDoGuilherme = new Conta();
-            contaDoGuilherme.Titular.Nome = "Guilherme";
+            Conta contaDoGuilherme = new ContaCorrente();
+            contaDoGuilherme.Titular = "Guilherme";
             contaDoGuilherme.Numero = 2;
             contaDoGuilherme.Saldo = 600.0;
             contas[1] = contaDoGuilherme;
 
-            Conta contaDoMauricio = new Conta();
-            contaDoMauricio.Titular.Nome = "Mauricio";
+            Conta contaDoMauricio = new ContaCorrente();
+            contaDoMauricio.Titular = "Mauricio";
             contaDoMauricio.Numero = 3;
             contaDoMauricio.Saldo = 900.0;
             contas[2] = contaDoMauricio;
@@ -59,7 +60,7 @@ namespace CaixaEletronicoArray
         {
             textoNumero.Text = Convert.ToString(conta.Numero);
             textoSaldo.Text = Convert.ToString(conta.Saldo);
-            textoTitular.Text = conta.Titular.Nome;
+            textoTitular.Text = conta.Titular;
 
         }
 
@@ -68,15 +69,20 @@ namespace CaixaEletronicoArray
             Conta contaSelecionada = this.BuscaContaSelecionada();
             this.MostraConta(contaSelecionada);
 
-            textoTitular.Text = contaSelecionada.Titular.Nome;
+            textoTitular.Text = contaSelecionada.Titular;
             textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
 
-        /*public void Adiciona(Conta conta)
+        public void AdicionaConta(Conta conta)
         {
-            this.contas[this.quantidadeDeContas] = conta;
-        }*/
+            if (quantidadeDeContas < 3)
+            {
+                this.contas[this.quantidadeDeContas] = conta;
+                this.quantidadeDeContas++;
+                comboContas.Items.Add(conta);
+            }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -109,7 +115,7 @@ namespace CaixaEletronicoArray
 
             contaSelecionada.Transferencia(valorTransferencia, contaDestino);
 
-            textoTitular.Text = contaSelecionada.Titular.Nome;
+            textoTitular.Text = contaSelecionada.Titular;
             textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
@@ -118,5 +124,10 @@ namespace CaixaEletronicoArray
         {
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CadastroDeConta cadastro = new CadastroDeConta(this);
+            cadastro.ShowDialog();
+        }
     }
 }
