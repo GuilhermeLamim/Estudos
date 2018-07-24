@@ -38,7 +38,6 @@ namespace CaixaEletronicoArray
                 c.Numero = Convert.ToInt32(numeroConta.Text);
                 c.Titular = titularConta.Text;
                 this.aplicacaoPrincipal.AdicionaConta(c);
-
             }
 
             /*{
@@ -46,15 +45,7 @@ namespace CaixaEletronicoArray
                 c.Numero = Convert.ToInt32(numeroConta.Text);
                 c.Titular = titularConta.Text;
             }*/
-            string titular = titularConta.Text;
-            int numero = Convert.ToInt32(numeroConta.Text);
-
-            Conta conta = new ContaCorrente()
-            {
-                Numero = numero,
-                Titular = titular 
-            };
-            this.aplicacaoPrincipal.AdicionaConta(conta);
+            
             this.Close();
         }
 
