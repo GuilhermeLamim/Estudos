@@ -23,10 +23,29 @@ namespace CaixaEletronicoArray
         private void button1_Click(object sender, EventArgs e)
         {
             {
+
+                Conta c = null;
+                if (tipoDaConta.Text == "Poupanca")
+                {
+                    c = new ContaPoupanca();
+                }
+                else
+                {
+                    c = new ContaCorrente();
+                }
+                
+                
+                c.Numero = Convert.ToInt32(numeroConta.Text);
+                c.Titular = titularConta.Text;
+                this.aplicacaoPrincipal.AdicionaConta(c);
+
+            }
+
+            /*{
                 ContaCorrente c = new ContaCorrente();
                 c.Numero = Convert.ToInt32(numeroConta.Text);
                 c.Titular = titularConta.Text;
-            }
+            }*/
             string titular = titularConta.Text;
             int numero = Convert.ToInt32(numeroConta.Text);
 
@@ -42,6 +61,11 @@ namespace CaixaEletronicoArray
         private void CadastroDeConta_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void tipoDaConta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }
