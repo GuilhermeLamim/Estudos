@@ -29,7 +29,6 @@ namespace CaixaEletronicoArray
         {
             contas = new Conta[3];
             Cliente cliente = new Cliente();
-
             Conta contaDoVictor = new ContaCorrente();
             contaDoVictor.Titular = "Victor";
             contaDoVictor.Numero = 1;
@@ -47,7 +46,7 @@ namespace CaixaEletronicoArray
             contaDoMauricio.Numero = 3;
             contaDoMauricio.Saldo = 900.0;
             contas[2] = contaDoMauricio;
-
+            
             foreach (Conta Item in contas)
             {
                 comboContas.Items.Add(Item.Titular);
@@ -72,7 +71,6 @@ namespace CaixaEletronicoArray
             textoNumero.Text = Convert.ToString(contaSelecionada.Numero);
             textoSaldo.Text = Convert.ToString(contaSelecionada.Saldo);
         }
-
         
         public void RemoveConta(Conta conta)
         {
@@ -91,9 +89,6 @@ namespace CaixaEletronicoArray
                 i++;
             }
         }
-
-
-    
             public void AdicionaConta(Conta conta)
         {
             if (this.quantidadeDeContas == this.contas.Length)
@@ -109,7 +104,6 @@ namespace CaixaEletronicoArray
             this.quantidadeDeContas++;
             comboContas.Items.Add(conta);
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             string textoValorSaque = textoValor.Text;
@@ -155,10 +149,13 @@ namespace CaixaEletronicoArray
             CadastroDeConta cadastro = new CadastroDeConta(this);
             cadastro.ShowDialog();
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
-
+            int IndiceSelecionado = comboContas.SelectedIndex;
+            Conta ContaSelecionada = contas[IndiceSelecionado];
+            comboContas.Items.Remove(ContaSelecionada);
+            comboContas.Items.Remove(ContaSelecionada);
+            RemoveConta(ContaSelecionada);
         }
             
         }
